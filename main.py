@@ -13,8 +13,8 @@ def ran_color():
     r = random.randint(0, 255)
     g = random.randint(0, 255)
     b = random.randint(0, 255)
-    ran_color = (r, g, b)
-    return ran_color
+    color = (r, g, b)
+    return color
 
 
 tom.hideturtle()
